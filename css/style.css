@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+.content {
+	position: relative;
+}
+
+.sahur {
+	text-align: center;
+	position: relative;
+	top: 120px;
+	z-index: 10;
+}
+
+.sahur img {
+	width: calc(300px - 1vw);
+}
+
+.prize-summ {
+	position: relative;
+	top: 70px;
+	width: 100%;
+	text-align: center;
+}
+
+.prize-summ .light-bg {
+	z-index: 5;
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+.prize-summ .buy-win {
+	position: relative;
+	margin: auto;
+	z-index: 11;
+}
+
+.prize-summ .win-20000 {
+	position: relative;
+	margin: auto;
+	top: -115px;
+	z-index: 9;
+}
+
+.prize-summ .light-bg {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.prizes {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	top: -110px;
+	z-index: 8;
+}
+
+.prizes img {
+	width: 80vw;
+}
+
+.join-now {
+	position: relative;
+	top: -114px;
+	text-align: center;
+	z-index: 6;
+}
+
+.join-now .join-now-btn {
+	position: relative;
+	background: rgb(252, 238, 159);
+	background: linear-gradient(
+		180deg,
+		rgba(252, 238, 159, 1) 0%,
+		rgba(250, 197, 59, 1) 15%,
+		rgba(250, 197, 59, 1) 85%,
+		rgba(218, 124, 17, 1) 100%
+	);
+	-webkit-box-shadow: 0px 10px 13px 5px rgba(0, 0, 0, 0.6);
+	box-shadow: 0px 10px 13px 5px rgba(0, 0, 0, 0.6);
+	padding: 30px;
+	border-radius: 10px;
+	border: none;
+	font-family: "Metropolis Black";
+	color: #731a13;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.join-now .join-now-btn::before {
+	content: "";
+	background-image: url(../images/button_sparkle_left.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 25px;
+	height: 25px;
+	top: 10px;
+	left: 7px;
+	position: absolute;
+}
+
+.join-now .join-now-btn::after {
+	content: "";
+	background-image: url(../images/button_sparkle_right.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px;
+	bottom: 10px;
+	right: 2px;
+	position: absolute;
+}
+
+.how-to-join {
+	position: relative;
+	top: -100px;
+	text-align: center;
+	z-index: 5;
+}
+
+.how-to-join .how-to-join-img {
+	position: absolute;
+	left: 2%;
+	top: -40px;
+}
+
+.how-to-join .how-to-join-frame {
+	position: absolute;
+	left: 35%;
+}
+
+.how-to-join img.rice {
+	width: 40vw;
+}
+
+.how-to-join img.frame {
+	width: 60vw;
+}
